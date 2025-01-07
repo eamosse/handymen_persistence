@@ -1,4 +1,4 @@
-# V1 : Sauvegarder les voisins dans une base de données locales
+# V1 : Sauvegarder les utilisateurs dans une base de données locales
 Dans ce TP, vous allez améliorer la version précédente de l'application en y ajoutant un mécanisme de sauvegarde des données dans une base de données locale; 
 
 ## Concepts et notions envisagés
@@ -11,11 +11,11 @@ Dans ce TP, vous allez améliorer la version précédente de l'application en y 
 - Modifier le remote du TP précédent pour le pointer vers ce repository
 
 ## Etape 2: Mise en place de la base de données 
-Dans cette section, vous allez ajouter les composants nécessaires permettant de gérer les neighbors dans une base de données SQL. 
-- Ajouter les composants nécessaires (Entity, DAO, Database) pour gérer les voisins dans une base de données SQLite, en utilisant la librairie Room
+Dans cette section, vous allez ajouter les composants nécessaires permettant de gérer les utilisateurs dans une base de données SQLite. 
+- Ajouter les composants nécessaires (Entity, DAO, Database) pour gérer les utilisateurs dans une base de données SQLite, en utilisant la librairie Room
 - Ajouter une nouvelle implémentation du service afin de gérer la nouvelle source de données (i.e. base de données Room)
 - Adapter le repository pour qu'il puisse s'instancier avec l'un ou l'autre des services (memory ou base de données)
-- Ajouter un mécanisme permettant de remplir la base de données avec des données de teste
+- Ajouter un mécanisme permettant de remplir la base de données avec des données de tests
 
 ## Etape 3: Gestion des préférences
 - Modifier la toolbar de l'application pour y ajouter un menu permettant de basculer sur le mode memory ou base de données
@@ -25,5 +25,5 @@ Dans cette section, vous allez ajouter les composants nécessaires permettant de
 # Contraintes :
 - Repartir des sources du projet précédent
 - Utiliser les coroutines
-- Travailler en binôme
+- Garder les mêmes groupes
 - Utiliser l'injection de dépendances   
