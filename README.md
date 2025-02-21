@@ -1,5 +1,6 @@
 # V1 : Sauvegarder les utilisateurs dans une base de données locales
-Dans ce TP, vous allez améliorer la version précédente de l'application en y ajoutant un mécanisme de sauvegarde des données dans une base de données locale; 
+Dans ce TP, vous allez améliorer la version précédente de l'application en y ajoutant un mécanisme de sauvegarde des données dans une base de données locale. 
+Concrètement, toutes les opérations du TP précédent seront effectuées sur une base de données locales.
 
 ## Concepts et notions envisagés
 - Room
